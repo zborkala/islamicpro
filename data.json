@@ -1,4 +1,12 @@
-{
-    "latest": "1.0.1",
-    "play_store_link": "https://gladsme.com"
-}
+[
+    {
+        "id": "1",
+        "name": "version",
+        "content": "1.0.1"
+    },
+    {
+        "id": "2",
+        "name": "app_link",
+        "content": "https://gladsme.com"
+    }
+]
