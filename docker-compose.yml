@@ -1,0 +1,15 @@
+
+
+services:
+  app:
+    build: .
+    container_name: islamicpro-app
+    ports:
+      - "7691:7691"
+    environment:
+      - NODE_ENV=production
+      - PORT=7691
+    volumes:
+      - .:/app
+      - /app/node_modules
+    restart: unless-stopped
